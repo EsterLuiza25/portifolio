@@ -10,7 +10,7 @@ Atualmente, foco meus estudos no desenvolvimento de sistemas robustos e seguros.
 ---
 
 ## 🛠️ Meus Projetos Principais
-* 
+
 ### 1. 💳 InnovaBank API (Gestão de Dados)
 * **O que é:** Uma API robusta desenvolvida com o framework **Django**.
 * **Para leigos:** É o "motor" digital para uma empresa. Imagine uma central que permite que diferentes aplicativos conversem entre si com segurança, garantindo que os dados da empresa estejam sempre organizados.
