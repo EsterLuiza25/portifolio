@@ -10,14 +10,14 @@ Atualmente, foco meus estudos no desenvolvimento de sistemas robustos e seguros.
 ---
 
 ## 🛠️ Meus Projetos Principais
-
-### 1. 📚 Sistema de Gestão de Biblioteca (Padrão MVC)
-* **O que é:** Um organizador inteligente para acervos e empréstimos.
-* **Para leigos:** Funciona como a estrutura de um restaurante: uma parte cuida do "estoque" (os livros), outra da "apresentação" (o que o usuário vê) e uma terceira coordena os pedidos. Isso torna o sistema rápido e fácil de crescer.
-
-### 2. 💳 InnovaBank API (Gestão de Dados)
+* 
+### 1. 💳 InnovaBank API (Gestão de Dados)
 * **O que é:** Uma API robusta desenvolvida com o framework **Django**.
 * **Para leigos:** É o "motor" digital para uma empresa. Imagine uma central que permite que diferentes aplicativos conversem entre si com segurança, garantindo que os dados da empresa estejam sempre organizados.
+
+### 2. 📚 Sistema de Gestão de Biblioteca (Padrão MVC)
+* **O que é:** Um organizador inteligente para acervos e empréstimos.
+* **Para leigos:** Funciona como a estrutura de um restaurante: uma parte cuida do "estoque" (os livros), outra da "apresentação" (o que o usuário vê) e uma terceira coordena os pedidos. Isso torna o sistema rápido e fácil de crescer.
 
 ### 3. ✅ API de Gerenciamento de Tarefas (Task Management)
 * **O que é:** Uma central de controle construída com **Django REST Framework**.
