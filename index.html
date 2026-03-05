@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Engenharia de Software</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header-main">
+    <img src="src/avatar.webp" class="floating-avatar" alt="Avatar de Luiza">
+    
+    <div class="header-content">
+        <h1>Luiza Campos</h1>
+        <p>Estudante de Engenharia de Software</p>
+    </div>
+</header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="sobre" class="hidden-section project-card">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de Engenharia de Software apaixonada por construir soluções que organizam e facilitam o dia a dia. Atualmente, foco meu aprendizado no desenvolvimento de sistemas robustos utilizando Python e o framework Django. Meu objetivo é criar tecnologias que sejam invisíveis para quem usa, mas indispensáveis para o funcionamento de empresas e serviços.</p>
+        </section>
+
+        <section id="skills" class="hidden-section project-card">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Django / DRF</div>
+                <div class="skill-item">Arquitetura MVC</div>
+                <div class="skill-item">Git & GitHub</div>
+                <div class="skill-item">PostgreSQL / SQL</div>
+                <div class="skill-item">Banco de Dados</div>
+                <div class="skill-item">Desenvolvimento Web</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+            </div>
+        </section>
+
+        <section id="projetos" class="hidden-section">
+            <h2 style="margin-left: 20px;">Projetos em Destaque</h2>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>InnovaBank Project Management API</h3>
+                    <span class="company-tag">DigitalFlow Solutions</span>
+                </div>
+                <p>Desenvolvimento de uma API robusta para o gerenciamento do portfólio interno de projetos de TI do banco InnovaBank.</p>
+                <ul>
+                    <li>Desenvolvimento focado em escalabilidade e segurança de dados bancários.</li>
+                    <li>Implementação de endpoints para controle de cronogramas, recursos e status de projetos.</li>
+                    <br>
+                    <ul>Desenvolvi o 'motor' de um sistema de gestão para a DigitalFlow Solutions. Imagine um organizador digital onde empresas podem criar, acompanhar e concluir metas de equipe em tempo real. Eu construí toda a estrutura que permite que essas informações sejam guardadas com segurança e acessadas de qualquer lugar.</ul>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Django REST</span>
+                    <span class="tag">Enterprise API</span>
+                    <span class="tag">MVC</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Management API</h3>
+                <p>API RESTful para gerenciamento de tarefas desenvolvida com Django REST Framework.</p>
+                <ul>
+                    <li>API para fornecer endpoints para gerenciar o ciclo de vida de projetos e as Tarefas associadas a eles.</li>
+                    <li>Trazer controle de status e prioridade das atividades.</li>
+                    <br>
+                    <ul>Construí um painel de controle digital para equipes de trabalho. Ele funciona como um assistente que nunca dorme, permitindo que gestores criem tarefas, definam prazos e acompanhem o progresso de cada projeto em tempo real, garantindo que nada seja esquecido e que a produtividade da equipe seja máxima.</ul>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Django</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">REST API</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Biblioteca MVC</h3>
+                <p>Sistema de gestão de acervo bibliotecário aplicando padrões de projeto e separação de camadas.</p>
+                <ul>
+                    <li>Gerenciamento de dados.</li>
+                    <li>Utilização do padrão de arquitetura Model-View-Controller (MVC).</li>
+                    <br>
+                    <ul>Criei um sistema inteligente para bibliotecas que organiza milhares de livros e registros de forma automática. Utilizei uma arquitetura chamada MVC, que funciona como a organização de um restaurante: uma parte cuida do 'estoque' (os dados), outra da 'apresentação' (o que o usuário vê) e uma terceira que coordena os pedidos. Isso garante que o sistema seja rápido e fácil de atualizar.</ul>
+                </ul>
+                <div class="tags">
+                    <span class="tag">MVC</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Clean Code</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="hidden-section project-card">
+            <h2>Contato</h2>
+            <p>Estou aberta a oportunidades de estágio na área de tecnologia.</p>
+            <div class="contact-links">
+                <p>📧 luiza.campossouza.25@gmail.com</p>
+                <p>
+                    <a href="https://github.com/EsterLuiza25" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/ester-luiza-731a6a248/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido com foco em Engenharia de Software.</p>
+    </footer>
+
+    <button id="backToTop" title="Ir para o início">Voltar ao Topo</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
