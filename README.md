@@ -1,4 +1,4 @@
-# portifolio# 🚀 Portfólio: Engenharia de Software & Desenvolvimento Web
+# portifolio 🚀 Portfólio: Engenharia de Software & Desenvolvimento Web
 
 Bem-vindo(a) ao meu espaço! Sou estudante de Engenharia de Software e apaixonada por transformar lógica em soluções visuais e funcionais. Este portfólio reflete meu aprendizado em **Python**, **Django** e as melhores práticas de arquitetura de sistemas.
 
